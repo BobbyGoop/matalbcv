@@ -1,0 +1,41 @@
+*** Marker: DQT (xFFDB) ***
+  Precision=8 bits
+  Destination ID=0 (Luminance)
+    DQT, Row #0:   3   2   2   3   4   6   8  10 
+    DQT, Row #1:   2   2   2   3   4   9  10   9 
+    DQT, Row #2:   2   2   3   4   6   9  11   9 
+    DQT, Row #3:   2   3   4   5   8  14  13  10 
+    DQT, Row #4:   3   4   6   9  11  17  16  12 
+    DQT, Row #5:   4   6   9  10  13  17  18  15 
+    DQT, Row #6:   8  10  12  14  16  19  19  16 
+    DQT, Row #7:  12  15  15  16  18  16  16  16 
+
+*** Marker: DHT (Define Huffman Table) (xFFC4) ***
+  Destination ID = 0
+  Class = 0 (DC / Lossless Table)
+  Expanded Form of Codes:
+    Codes of length 01 bits:
+      0 = 09                             (Total Len = 10)
+    Codes of length 02 bits:
+      10 = 00                            (Total Len =  2)
+
+  ----
+  Destination ID = 0
+  Class = 1 (AC Table)
+  Expanded Form of Codes:
+    Codes of length 01 bits:
+      0 = 00 (EOB)                       (Total Len =  1)
+
+----------------------------------------------
+(FFDA ... 00) 2A 8A 92 2A CF (FFD9)
+0010101010001010100100100010101011001111
+----------------------------------------------
+Huffman tables
+
+(DC) 0 0 1010 1010 (AC EOB) 0  
+(DC) 0 1 0101 0010 (AC EOB) 0 
+(DC) 10 (AC EOB) 0
+(DC) 0 1 0101 0110 (AC EOB) 0 1111 (pending)
+    -341 338 0 342
+    -341 -3 -3 339
+RGB:  0  127 127 255 (V * (8\3) + 128)

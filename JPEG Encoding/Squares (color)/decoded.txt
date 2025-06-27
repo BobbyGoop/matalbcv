@@ -1,0 +1,77 @@
+*** Marker: DHT (Define Huffman Table) (xFFC4) ***
+  Destination ID = 0
+  Class = 0 (DC / Lossless Table)
+  Expanded Form of Codes:
+    Codes of length 01 bits:
+      0 = 08                             (Total Len =  9)
+    Codes of length 02 bits:
+      10 = 0A                            (Total Len = 12)
+    Codes of length 03 bits:
+      110 = 0B                           (Total Len = 14)
+
+
+ 
+*** Marker: DHT (Define Huffman Table) (xFFC4) ***
+  Destination ID = 0
+  Class = 1 (AC Table)
+  Expanded Form of Codes:
+    Codes of length 01 bits:
+      0 = 00 (EOB)                       (Total Len =  1)
+
+ 
+*** Marker: DHT (Define Huffman Table) (xFFC4) ***
+  Destination ID = 1
+  Class = 0 (DC / Lossless Table)
+  Expanded Form of Codes:
+    Codes of length 02 bits:
+      00 = 07                            (Total Len =  9)
+      01 = 09                            (Total Len = 11)
+      10 = 0A                            (Total Len = 12)
+    Codes of length 03 bits:
+      110 = 08                           (Total Len = 11)
+
+
+ 
+*** Marker: DHT (Define Huffman Table) (xFFC4) ***
+  Destination ID = 1
+  Class = 1 (AC Table)
+  Expanded Form of Codes:
+    Codes of length 01 bits:
+      0 = 00 (EOB)                       (Total Len =  1)
+
+
+460BD35625D494BCB4191C09542035549F
+
+Block 1
+0 100011000 0 280
+01 01111010 0 -133
+110 101011 0 43
+
+Block 2
+0 010010111 0 151 129
+10 100100101 0
+01 01111001 0
+
+Block 3
+110 1000 0011 0 -124
+01 00011100 0 
+00 0100101 0 
+
+Block 4
+10 1000010 0 
+00 0001101 0 
+10 101010010 0 
+
+
+11111
+
+
+
+10 1101001000 0 -183
+01 001101101 0
+00 1111110 0 
+
+110 01111001010 0 
+10 1101101110 0 
+01 001110011 0 
+1111 1111 1111 111010000010010101011000110101010011101110100110010100010101001110101111111100011
